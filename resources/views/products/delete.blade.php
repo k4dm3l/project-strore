@@ -1,4 +1,9 @@
 @extends('layouts.main')
+@extends('components.searchform')
+@extends('components.navbar')
+
 @section('content')
-<h2>Delete Product</h2>
+    <div class="container-fluid m-5">
+        <h2>Delete Product</h2>
+    </div>
 @endsection
